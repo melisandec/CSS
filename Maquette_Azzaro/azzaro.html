@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maquette Azzaro</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="page">
+        <!--  border + margin 10px 60px -->
+        <header>
+          <div class="flex">
+            <!-- Logo + (H1 + H5) -->
+            <div class="top-gauche">
+              <div class="logo">
+                <img src="../maq-img-azzaro/img/logo.png" alt="logo" />
+              </div>
+              <div class="ma-boutique">
+                <h1>Ma Boutique</h1>
+                <h5>Vente en ligne: Mode , Tendance et Déco</h5>
+              </div>
+            </div>
+            <!-- H2 + (aide img+tel) + H6 -->
+            <div class="top-centre">
+              <h2>Besoin d'aide ?</h2>
+              <div class="aide"><div class="tel">08 00 10 28 10</div></div>
+              <h6>Du lundi au vendredi de 10h à 17h30</h6>
+            </div>
+            <div class="top-droite">
+              <a href="#">Mon Compte</a>
+              <a href="#" id="gauche"
+                ><img
+                  src="../maq-img-azzaro/img/article.png"
+                  alt="panier"
+                />article(s) dans votre panier</a
+              >
+            </div>
+          </div>
+
+          <div>
+            <!-- menu - nav a*6 -->
+            <nav class="navbar navbar-expand-lg navbar-dark bleu">
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-item nav-link active" href="#">Accueil</a>
+                  <a class="nav-item nav-link active" href="#">Vetements</a>
+                  <a class="nav-item nav-link active" href="#">Maison</a>
+                  <a class="nav-item nav-link active" href="#">Technologie</a>
+                  <a class="nav-item nav-link active" href="#">Bijoux</a>
+                  <a class="nav-item nav-link active" href="#">Idées Cadeaux</a>
+                </div>
+              </div>
+            </nav>
+          </div>
+          <!-- <nav>
+            <a href="#">Accueil</a>
+            <a href="#">Vetements</a>
+            <a href="#">Maison</a>
+            <a href="#">Technologie</a>
+            <a href="#">Bijoux</a>
+            <a href="#">Idées Cadeaux</a>
+          </nav> -->
+        </header>
+
+        <main>
+          <div class="section bandeau">
+            <!-- image en background no repeat height 500px -->
+          </div>
+          <div class="section2 arround">
+            <div class="w-20">
+              <h2>Paiement Sécurisé</h2>
+              <p>Reglez vos achats en toute sérénité sur maboutique.com</p>
+              <img src="../maq-img-azzaro/img/paiement.png" alt="" />
+            </div>
+
+            <div class="w-60">
+              <h2>Qui sommes-nous?</h2>
+              <p>
+                Bienvenue chez MaBoutique ! MaBoutique est la plus grande
+                boutique en ligne de France consacrée à la mode et à la beauté
+                pour femmes et hommes. <br />
+                Nous proposons plus de 850 marques ainsi que nos propres
+                collections. <br />
+                N'hésitez plus! les livraisons et les retours sont gratuits.
+                <br />Retrait possible de votre commande dans notre entrepot sur
+                RDV.
+              </p>
+            </div>
+
+            <div class="w-20">
+              <h2>Services</h2>
+              <div class="flex1">
+                <img
+                  src="../maq-img-azzaro/img/camion.png"
+                  alt="camion"
+                  id="icone"
+                />
+                <p>Livraisons sous 48h</p>
+              </div>
+              <div class="flex1">
+                <img
+                  src="../maq-img-azzaro/img/echange.png"
+                  alt="echange"
+                  id="icone"
+                />
+                <p>Produits Echangeables</p>
+              </div>
+            </div>
+          </div>
+          <!-- <table class="table">
+            <thead class="thead-dark">
+              <tr>
+                <th>Bon Plan</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <img
+                    src="../maq-img-azzaro/img/robe.png"
+                    alt="robe"
+                    id="icone"
+                  />
+                </td>
+                <td>
+                  Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+                  bla bla bla bla bla
+                </td>
+              </tr>
+              <tr>
+                <td class="souligner">Voir</td>
+              </tr>
+            </tbody>
+          </table> -->
+          <div class="section flex">
+            <div class="box">
+              <h4>Bon Plan</h4>
+              <div class="flex1">
+                <img
+                  src="../maq-img-azzaro/img/robe.png"
+                  alt="robe"
+                  id="icone"
+                />
+                <div class="wrap bla-bla">
+                  Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+                  bla bla bla bla bla<br /><span>Voir</span>
+                </div>
+              </div>
+            </div>
+            <div class="box">
+              <h4>Coup de Coeur</h4>
+              <div class="flex1">
+                <img
+                  src="../maq-img-azzaro/img/talons.png"
+                  alt="talons"
+                  id="icone"
+                />
+                <div class="wrap bla-bla">
+                  Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+                  bla bla bla bla bla<br /><span>Voir</span>
+                </div>
+              </div>
+            </div>
+            <div class="box">
+              <h4>Objectif Plaisir</h4>
+              <div class="flex1">
+                <img
+                  src="../maq-img-azzaro/img/chemise.png"
+                  alt="chemise"
+                  id="icone"
+                />
+                <div class="wrap bla-bla">
+                  Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+                  bla bla bla bla bla <br /><span>Voir</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+        <footer>
+          Newsletter - Promotions - Nouveaux produits - Meilleures ventes -
+          Mentions légales - CGV - Contactez-nous
+        </footer>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
